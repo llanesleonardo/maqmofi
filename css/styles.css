@@ -148,3 +148,26 @@ main{
     color: #757575;
 
 }
+
+.main-tables-container table .bear {
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    margin-left: 10px;
+    background-image: url("../assets/icons/trending-down-1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.main-tables-container table .steady {
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    margin-left: 10px;
+    background-image: url("../assets/icons/trending-up-1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
