@@ -212,3 +212,27 @@ main{
     color: var(--grey);   
     background-color: var(--just-white); 
 }
+
+.currency-table--container .table__top-left{
+ border-top-left-radius: 15px;
+}
+
+.currency-table--container .table__top-right{
+    border-top-right-radius: 15px;
+}
+
+
+.currency-table--container .table__bottom-left {
+    border-bottom-left-radius: 15px;
+}
+
+.currency-table--container .table__bottom-right {
+    border-bottom-right-radius: 15px;
+}
+
+.currency-table--container .table__right{
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+}
