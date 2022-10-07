@@ -72,10 +72,30 @@ header img {
     
 }
 
-.header--title-container a {
-   background-color: var(--just-white);
-   padding: 12px;
+.header--title-container .header--button {
+    position: absolute;
+    left: calc(50% - 120px);
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+   background-color: var(--off-white);
+   padding: 15px;
    border-radius: 5px;
-    
+   width: 229px;
+   height: 48px;
+   box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
+   border: none;
+   font-size: 1.4rem;
+   font-weight: bold;
+   text-decoration: none;
+   color: var(--warm-black);
+}
+
+.header--button span {
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    margin-left: 10px;
+    background-image: url("../assets/icons/arrow_down.svg");
 }
 
