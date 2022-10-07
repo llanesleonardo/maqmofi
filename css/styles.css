@@ -31,6 +31,7 @@ header {
     min-width: 320px;
     height: 334px;
     text-align: center;
+    background: var(--linear-bg);
 }
 
 header img {
@@ -49,3 +50,32 @@ header img {
     text-align: center;
     align-self: center;
 }
+
+.header--title-container h1 {
+    color: var(--just-white);
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+
+}
+
+
+
+.header--title-container p {
+    margin-top: 25px;
+    color: var(--soft-orange);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    
+
+    
+}
+
+.header--title-container a {
+   background-color: var(--just-white);
+   padding: 12px;
+   border-radius: 5px;
+    
+}
+
