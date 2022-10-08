@@ -1,0 +1,43 @@
+.main-currency-table, .main-commision-table{
+    margin: 0 auto;
+}
+
+.table-arrow-left{
+    display: none;
+}
+
+.table-arrow-right{
+    display: none;
+}
+
+.main-tables-container,.options-container--slider{
+    display: flex;
+    width: 903px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.product-cards--container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.options-container--slider{
+ overflow-x: none;
+ overscroll-behavior-x: contain;
+ scroll-snap-type: none;
+}
+
+.bitcoin-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url("../assets/images/bitcoinbaby-1-tiny.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
