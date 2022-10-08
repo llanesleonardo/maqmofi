@@ -517,6 +517,7 @@ margin-bottom: 50px;
 }
 
 .options-container--card{
+    position: relative;
     background-color: var(--just-white);
     box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
     width: 70%;
@@ -529,3 +530,48 @@ margin-bottom: 50px;
 
 }
 
+.recommended{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--just-white);
+    top: -10px;
+    left: calc(50% - 60px);   
+    font-size: 1.2rem;
+    padding: 6px;    
+}
+
+.option-card--title{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--warm-black);
+}
+
+.option-card--price{
+    position: relative;
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+   line-height: 5.3rem; 
+    color: var(--warm-black);
+}
+
+.option-card--price span{
+    position: absolute;
+    top: 0;
+    top: -10px;
+    left: calc(50% - 45px);
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+.option-card-saving{
+    font-size: 1.2rem;
+    color: #757575;
+
+}
