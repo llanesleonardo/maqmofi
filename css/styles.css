@@ -173,11 +173,12 @@ main{
 }
 
 .main-currency-table{
+    position: relative;
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 auto;
+    margin: 0 100px;
     font-family: "Inter",sans-serif;
 }
 
@@ -264,11 +265,12 @@ main{
 }
 
 .main-commision-table{
+    position: relative;
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 auto;
+    margin: 0 100px;
     font-family: "Inter",sans-serif;
 }
 
@@ -326,6 +328,31 @@ main{
     font-weight: normal;
     line-height: 1.7rem;
     color: #757575;
+}
+
+.table-arrow-right{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url("../assets/icons/slider-arrow-right.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    right: -20px;
+    top: calc(50% - 25px);
+}
+
+.table-arrow-left{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url("../assets/icons/slider-arrow-right.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    left: -20px;
+    top: calc(50% - 25px);
+    transform: rotate(180deg);
 }
 
 .commision-table-date{
@@ -467,7 +494,7 @@ main{
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url("../assets/images/bitcoinbaby-1.jpg");
+    background-image: url("../assets/images/bitcoinbaby-1.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -606,6 +633,20 @@ margin-bottom: 50px;
     vertical-align: text-bottom;
 }
 
+.main-tables-container{
+    display: flex;
+    /*  gap: 20px; */
+     height: auto;
+     flex-direction: row;
+     overflow-x: scroll;
+     overscroll-behavior-x: contain;
+     scroll-snap-type: x proximity;
+}
+
+.main-commision-table, .main-currency-table {
+    scroll-snap-align: center;
+}
+
 .options-container--slider{
     display: flex;
    /*  gap: 20px; */
@@ -645,4 +686,9 @@ footer .footer-left li {
 footer .footer-left a {
     text-decoration: none;
     color: var(--just-white);
+}
+
+footer .footer-right img{
+    width: 60px;
+    height: 30px;
 }
